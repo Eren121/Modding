@@ -1,4 +1,4 @@
-package com.example.examplemod;
+package com.rafoudiablol.medievarms.examplemod;
 
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityLivingBase;

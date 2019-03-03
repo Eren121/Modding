@@ -1,6 +1,6 @@
-package com.example.examplemod;
+package com.rafoudiablol.medievarms.init;
 
-import com.google.common.eventbus.Subscribe;
+import com.rafoudiablol.medievarms.examplemod.Registry;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.GuiListWorldSelection;
 import net.minecraft.client.gui.GuiMainMenu;
@@ -10,7 +10,6 @@ import net.minecraft.enchantment.Enchantment;
 import net.minecraft.init.Blocks;
 import net.minecraft.item.Item;
 import net.minecraftforge.client.event.GuiScreenEvent;
-import net.minecraftforge.client.event.ModelBakeEvent;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.RegistryEvent;
@@ -26,9 +25,9 @@ import org.apache.logging.log4j.Logger;
 
 import java.lang.reflect.Field;
 
-@Mod(modid = ExampleMod.MODID, name = ExampleMod.NAME, version = ExampleMod.VERSION)
+@Mod(modid = Medievarms.MODID, name = Medievarms.NAME, version = Medievarms.VERSION)
 @Mod.EventBusSubscriber
-public class ExampleMod
+public class Medievarms
 {
     public static final String MODID = "examplemod";
     public static final String NAME = "Example Mod";
