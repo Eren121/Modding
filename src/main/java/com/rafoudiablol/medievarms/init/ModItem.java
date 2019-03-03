@@ -10,11 +10,11 @@ import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
 @SuppressWarnings("unused")
-public class ModItems
+public class ModItem
 {
     public Item seekingArrow;
 
-    ModItems()
+    ModItem()
     {
         seekingArrow = new ItemSeekingArrow("seeking_arrow");
     }

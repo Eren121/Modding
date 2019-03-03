@@ -3,13 +3,14 @@ package com.rafoudiablol.medievarms.item;
 import com.rafoudiablol.medievarms.entity.EntitySeekingArrow;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.projectile.EntityArrow;
+import net.minecraft.entity.projectile.EntityTippedArrow;
 import net.minecraft.item.ItemArrow;
 import net.minecraft.item.ItemStack;
 import net.minecraft.world.World;
 
-public class ItemArrowSeeking extends ItemArrow
+public class ItemSeekingArrow extends ItemArrow
 {
-    public ItemArrowSeeking(String name)
+    public ItemSeekingArrow(String name)
     {
         setUnlocalizedName(name);
         setRegistryName(name);
